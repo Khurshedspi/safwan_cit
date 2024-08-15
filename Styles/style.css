@@ -21,14 +21,16 @@
 ul {
     gap: 50px;
 }
-.nav-link{
+
+.nav-link {
     font-size: 18px;
     font-weight: 600;
     color: #00413D;
     transition: .4s;
 }
-.nav-link:hover{
-color: #E5745D;
+
+.nav-link:hover {
+    color: #E5745D;
 }
 
 .cvButton a {
@@ -46,7 +48,8 @@ color: #E5745D;
     text-align: center;
     position: relative;
 }
-.cvButton::after{
+
+.cvButton::after {
     position: absolute;
     top: 5px;
     left: 7px;
@@ -54,4 +57,71 @@ color: #E5745D;
     width: 175px;
     border: 2px solid white;
     content: "";
+}
+
+.banner {
+    background-image: url('../images/background.png');
+    padding: 220px 0px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.banner h1 {
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.banner p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* common css for button  */
+.sharedButton a {
+    text-decoration: none;
+    color: white;
+}
+
+.sharedButton {
+    background: #E5745D;
+    height: 65px;
+    width: 190px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+
+.sharedButton a::after {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    height: 55px;
+    width: 175px;
+    border: 2px solid white;
+    content: "";
+}
+
+.overly {
+    width: 45%;
+    height: 100%;
+    background-color: red;
+    background-image: url('../images/young-attractiv.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -47%;
+    top: 0;
+    transition: .6s;
+    z-index: -1;
+}
+.banner:hover .overly {
+    right: 0;
+
 }
