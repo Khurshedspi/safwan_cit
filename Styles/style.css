@@ -125,3 +125,72 @@ ul {
     right: 0;
 
 }
+
+/* services section styles here start  */
+.arrow-round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.arrow{
+    width: 45px;
+    height: 2px;
+    background-color: #E5745D;
+    position: relative;
+    
+}
+.round{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #E5745D;
+    position: relative;
+    left: -4px;
+    bottom: 1px;
+}
+.service-title1{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.07px;
+    letter-spacing: 0.02em;
+    margin-top: 6px;
+    margin-left: 9px;
+    color: #00413D;
+}
+.service-title2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #00413D;
+    width: 521px;
+    margin: 0px auto 40px auto;
+   
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+.card{
+    -webkit-box-shadow:17px 10px 27px 24px #d5d3d3 ;
+    -moz-box-shadow:17px 10px 27px 24px #d5d3d3 ;
+    box-shadow:17px 10px 27px 24px #d5d3d3 ;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 50%;
+    padding: 36px 16px 1px;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+
