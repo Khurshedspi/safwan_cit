@@ -249,3 +249,49 @@ margin-top: 20px;
     margin-top: 20px;
 }
 
+
+/* progress bar styles here */
+.progressbar-mainContainer{
+    display: flex;
+   gap: 7rem;
+   margin-bottom: 50px;
+
+}
+.progressbar-container{
+    width: 250px;
+    height: 245px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 32px 9px rgba(232,227,232,1);
+-moz-box-shadow: 10px 10px 32px 9px rgba(232,227,232,1);
+box-shadow: 10px 10px 32px 9px rgba(232,227,232,1);
+
+}
+.progress-bar {
+
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, rgb(245, 244, 244) 79%, transparent 80% 100%),
+      conic-gradient(#E5745D 75%, rgb(215, 195, 198) 0);    
+  }
+
+
+
+  /* recent section carousel styles here */
+  .text-right{
+    text-align: end;
+  }
+
+
+  /* Smooth transition for carousel items */
+  .carousel-item {
+    transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+  }
+
+  
