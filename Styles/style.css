@@ -118,30 +118,32 @@ ul {
     position: absolute;
     right: -47%;
     top: 0;
-    transition: .6s;
+    transition: .8s;
     z-index: -1;
 }
+
 .banner:hover .overly {
     right: 0;
 
 }
 
 /* services section styles here start  */
-.arrow-round{
+.arrow-round {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 150px;
 }
 
-.arrow{
+.arrow {
     width: 45px;
     height: 2px;
     background-color: #E5745D;
     position: relative;
-    
+
 }
-.round{
+
+.round {
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -150,7 +152,8 @@ ul {
     left: -4px;
     bottom: 1px;
 }
-.service-title1{
+
+.service-title1 {
     font-size: 18px;
     font-weight: 500;
     line-height: 25.07px;
@@ -159,7 +162,8 @@ ul {
     margin-left: 9px;
     color: #00413D;
 }
-.service-title2{
+
+.service-title2 {
     text-align: center;
     font-size: 50px;
     font-weight: 600;
@@ -167,30 +171,55 @@ ul {
     color: #00413D;
     width: 521px;
     margin: 0px auto 40px auto;
-   
+
 }
-.card-container{
+
+.card-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
-.card{
-    -webkit-box-shadow:17px 10px 27px 24px #d5d3d3 ;
-    -moz-box-shadow:17px 10px 27px 24px #d5d3d3 ;
-    box-shadow:17px 10px 27px 24px #d5d3d3 ;
+
+.card {
+    -webkit-box-shadow: 17px 10px 27px 24px #d5d3d3;
+    -moz-box-shadow: 17px 10px 27px 24px #d5d3d3;
+    box-shadow: 17px 10px 27px 24px #d5d3d3;
 }
-.card-img, .card-img-bottom, .card-img-top {
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
     width: 50%;
     padding: 36px 16px 1px;
 }
-.card-title{
+
+.card-title {
     font-size: 18px;
     font-weight: 700;
 }
-.card-text{
+
+.card-text {
     font-size: 16px;
     font-weight: 400;
 }
+.card-body{
+    position: relative;
+    margin-bottom: 20px;
+ }
+ .movable-arrow{
+    width: 100%;
+    font-size: 24px;
+    position: absolute;
+    top: 132px;
+    left: 15px;
+    transition: 0.8s;
+ }
+ 
+ .card:hover .movable-arrow {
+   color: #E5745D;
+   left: 60px;
+}
+ 
 
